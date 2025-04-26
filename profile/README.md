@@ -11,7 +11,7 @@ Wir entwickeln seit 15 Jahren anspruchsvolle Software fürs Web und beraten bei 
   </tr>
   <tr>
     <td rowspan=3><a href="//github.com/ADoebeling"><img src="https://avatars.githubusercontent.com/u/10674780?v=4" width="100"></a></td>
-    <td><a href="tel:+49 9133 8309884" target="_blank">+49 9131 926 26 29</a></td>
+    <td><a href="tel:+49 9133 8309884" target="_blank">+49 9133 8309884</a></td>
   </tr>
     <tr>
     <td><a href="mailto:Projektbuero@Doebeling.de" target="_blank">Projektbuero@Doebeling.de</a></td>
