@@ -70,6 +70,8 @@
         @media (max-width: 640px) {
             /* stacked logo: the wordmark starts on the logo's left edge */
             .brand { width: min(316px, calc(100vw - 5rem)); --wordmark-left: 0%; }
+            /* stacked logo is symmetric, so the button sits on its centre axis */
+            .brand .cta { align-self: center; margin-left: 0; }
         }
         /* Divider: light grey line across the wordmark's width, outside the logo's clear space */
         .divider {
