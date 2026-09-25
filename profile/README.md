@@ -9,28 +9,21 @@
 
 <br>
 
-Wir entwickeln seit 15 Jahren anspruchsvolle Software fürs Web und beraten bei deren Konzeption und Implementierung.
+With over 15 years of experience, we develop cutting-edge web software and offer expert guidance in its design and implementation.
 
-<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;Digitalisierung ist unsere Mission,<br>
-<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;technische Innovation unsere Vision.<br>
-<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;User Experience ist unser Antrieb,<br>
-<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;agile Werte sind unser Kompass.
+<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;Digitalisation is our mission,<br>
+<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;technical innovation is our vision.<br>
+<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;User experience is our passion,<br>
+<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;agile values are our compass.
 
-Sie planen ein neues Webprojekt oder benötigen Unterstützung bei einem bestehenden? Bitte rufen Sie uns an!
+Are you planning a new web project or need support with an existing one? Please get in touch with us.
 
-## Ansprechpartner
-
-<a href="https://github.com/ADoebeling"><img src="https://avatars.githubusercontent.com/u/10674780?v=4" width="160" align="right" alt="Andreas Döbeling"></a>
+## Contact
 
 ### [Andreas Döbeling](https://github.com/ADoebeling)
 
-<sub>Werbefach-, Kommunikations- und Betriebswirt (BAW/IHK)<br>Fachinformatiker (IHK), Projektleiter (TÜV SÜD)</sub>
-
 <img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;[@ADoebeling](https://github.com/ADoebeling)<br>
 <img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;+49 9133 8309884<br>
-<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;[Projektbuero@Doebeling.de](mailto:Projektbuero@Doebeling.de?subject=%5Bgithub.com%2FDOEBELING%5D%20Projektanfrage)<br>
-<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;[Hornschuchpromenade 7 · 90762 Fürth](https://maps.app.goo.gl/y6rogQu26bfhELxy5)
+<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;[Projektbuero@Doebeling.de](mailto:Projektbuero@Doebeling.de?subject=%5Bgithub.com%2FDOEBELING%5D%20Project%20enquiry)
 
-<br clear="all">
-
-<sub>© 2009–2026 DÖBELING Projektbüro · <a href="https://www.Doebeling.de">www.Doebeling.de</a> · <a href="https://legal.doebeling.de/impressum/">Impressum</a> · <a href="https://legal.doebeling.de/datenschutzerklaerung/">Datenschutzerklärung</a></sub>
+<sub>© 2009–2026 DÖBELING Projektbüro · <a href="https://www.Doebeling.de">www.Doebeling.de</a> · <a href="https://legal.doebeling.de/impressum/">Imprint</a></sub>
