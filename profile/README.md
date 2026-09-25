@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://www.Doebeling.de">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/D15-quer-weiss.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/D15-quer-dunkel-ohne-grund.svg">
       <img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/D15-quer-hell.svg" width="600" alt="DÖBELING Projektbüro">
     </picture>
   </a>
