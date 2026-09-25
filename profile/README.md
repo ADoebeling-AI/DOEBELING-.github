@@ -9,7 +9,7 @@
 
 <br>
 
-We have been developing web software for over 15 years and advise on its design and implementation.
+For over 15 years, we have been building web software and helping our clients plan and deliver their own.
 
 <img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/bullet.svg" width="11" alt="">&nbsp;&nbsp;Digitalisation is our mission,<br>
 <img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/bullet.svg" width="11" alt="">&nbsp;&nbsp;technical innovation is our vision.<br>
