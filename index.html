@@ -1,2 +1,101 @@
-<meta http-equiv="refresh" content="0;url=https://github.com/DOEBELING">
-<a href="https://github.com/DOEBELING" style="font-family: Sans-Serif; font-size: 3em; margin: 2em;">DÖBELING Projektbüro @ GitHub</a>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DÖBELING Projektbüro auf GitHub</title>
+    <meta name="description" content="Projektmanagement und Business-Analyse — Digitalisierungsprojekte, webbasierte Applikationen, Internetpräsenzen.">
+    <meta name="theme-color" content="#78022D">
+    <link rel="canonical" href="https://doebeling.dev">
+
+    <link rel="icon" href="assets/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+    <link rel="icon" type="image/svg+xml" href="assets/D15-favicon-hell.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/D15-icon-hell-180.png">
+
+    <meta property="og:title" content="DÖBELING Projektbüro">
+    <meta property="og:description" content="Projektmanagement und Business-Analyse — Digitalisierungsprojekte, webbasierte Applikationen, Internetpräsenzen.">
+    <meta property="og:image" content="https://doebeling.dev/assets/D15-vorschau-weiss-auf-portwein-1200x630.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="DÖBELING Projektbüro">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <style>
+        /* Farben nach CD-Handbuch D15 (marke/farben/farben.css) */
+        :root {
+            --doebeling-portwein: #78022d;
+            --doebeling-tinte: #22262b;
+            --doebeling-papier: #ffffff;
+            --doebeling-nacht: #0e1114;
+            --doebeling-hellgrau: #e7e7e8;
+            --grund: var(--doebeling-papier);
+            --schrift: var(--doebeling-tinte);
+            --link: var(--doebeling-portwein);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --grund: var(--doebeling-nacht);
+                --schrift: var(--doebeling-papier);
+                --link: var(--doebeling-papier);
+            }
+        }
+        * { box-sizing: border-box; }
+        html, body { height: 100%; margin: 0; }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 3.5rem;
+            padding: 3rem 1.5rem;
+            background: var(--grund);
+            color: var(--schrift);
+            font-family: Biome, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            font-weight: 300;
+            text-align: center;
+        }
+        .logo { display: block; line-height: 0; }
+        .logo img { max-width: 100%; height: auto; }
+        /* Mindestgrößen und Schutzzone (0,339 × Kachelseite) nach CD-Handbuch */
+        .logo img { width: min(600px, calc(100vw - 6rem)); }
+        @media (max-width: 640px) {
+            .logo img { width: min(316px, calc(100vw - 5rem)); }
+        }
+        .cta {
+            display: inline-block;
+            padding: 0.9rem 2rem;
+            /* Kachelform: Ecken oben links und unten rechts gerundet */
+            border-radius: 0.9rem 0 0.9rem 0;
+            background: var(--doebeling-portwein);
+            color: var(--doebeling-papier);
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        .cta:hover, .cta:focus-visible { opacity: 0.85; }
+        footer { font-size: 0.85rem; }
+        footer a { color: var(--link); text-decoration: none; }
+        footer a:hover, footer a:focus-visible { text-decoration: underline; }
+        footer span { margin: 0 0.6em; }
+    </style>
+</head>
+<body>
+
+<a class="logo" href="https://www.Doebeling.de" title="DÖBELING Projektbüro">
+    <picture>
+        <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/D15-steh-weiss.svg">
+        <source media="(max-width: 640px)" srcset="assets/D15-steh-hell.svg">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/D15-quer-weiss.svg">
+        <img src="assets/D15-quer-hell.svg" width="600" height="128" alt="DÖBELING Projektbüro">
+    </picture>
+</a>
+
+<a class="cta" href="https://github.com/DOEBELING">Show Projects on GitHub</a>
+
+<footer>
+    <a href="https://legal.doebeling.de/impressum/">Impressum</a><span>·</span><a href="https://legal.doebeling.de/datenschutzerklaerung/">Datenschutzerklärung</a>
+</footer>
+
+</body>
+</html>
