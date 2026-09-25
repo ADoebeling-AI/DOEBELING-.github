@@ -30,13 +30,11 @@
             --doebeling-hellgrau: #e7e7e8;
             --grund: var(--doebeling-papier);
             --schrift: var(--doebeling-tinte);
-            --link: var(--doebeling-portwein);
         }
         @media (prefers-color-scheme: dark) {
             :root {
                 --grund: var(--doebeling-nacht);
                 --schrift: var(--doebeling-papier);
-                --link: var(--doebeling-papier);
             }
         }
         * { box-sizing: border-box; }
@@ -45,14 +43,29 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            gap: 3.5rem;
-            padding: 3rem 1.5rem;
+            min-height: 100%;
+            padding: 3rem 1.5rem 1.5rem;
             background: var(--grund);
             color: var(--schrift);
             font-family: Biome, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
             font-weight: 300;
             text-align: center;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 3rem;
+        }
+        /* Trenner: Linie in Hellgrau, außerhalb der Schutzzone des Logos */
+        .trenner {
+            width: 8rem;
+            height: 1px;
+            margin: 0;
+            border: 0;
+            background: var(--doebeling-hellgrau);
         }
         .logo { display: block; line-height: 0; }
         .logo img { max-width: 100%; height: auto; }
@@ -74,13 +87,15 @@
             transition: opacity 0.3s;
         }
         .cta:hover, .cta:focus-visible { opacity: 0.85; }
-        footer { font-size: 0.85rem; }
-        footer a { color: var(--link); text-decoration: none; }
+        footer { margin-top: 3rem; font-size: 0.85rem; opacity: 0.6; }
+        footer a { color: var(--schrift); text-decoration: none; }
         footer a:hover, footer a:focus-visible { text-decoration: underline; }
         footer span { margin: 0 0.6em; }
     </style>
 </head>
 <body>
+
+<main>
 
 <a class="logo" href="https://www.Doebeling.de" title="DÖBELING Projektbüro">
     <picture>
@@ -91,7 +106,11 @@
     </picture>
 </a>
 
+<hr class="trenner">
+
 <a class="cta" href="https://github.com/DOEBELING">Show Projects on GitHub</a>
+
+</main>
 
 <footer>
     <a href="https://legal.doebeling.de/impressum/">Impressum</a><span>·</span><a href="https://legal.doebeling.de/datenschutzerklaerung/">Datenschutzerklärung</a>
