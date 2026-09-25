@@ -9,32 +9,32 @@
     <link rel="canonical" href="https://doebeling.dev">
 
     <link rel="icon" href="assets/favicon.ico" sizes="16x16 24x24 32x32 48x48">
-    <link rel="icon" type="image/svg+xml" href="assets/D15-favicon-hell.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/D15-icon-hell-180.png">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
     <meta property="og:title" content="DÖBELING Projektbüro">
     <meta property="og:description" content="Projektmanagement und Business-Analyse — Digitalisierungsprojekte, webbasierte Applikationen, Internetpräsenzen.">
-    <meta property="og:image" content="https://doebeling.dev/assets/D15-vorschau-weiss-auf-portwein-1200x630.png">
+    <meta property="og:image" content="https://doebeling.dev/assets/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="DÖBELING Projektbüro">
     <meta name="twitter:card" content="summary_large_image">
 
     <style>
-        /* Farben nach CD-Handbuch D15 (marke/farben/farben.css) */
+        /* Brand colours from the corporate design manual (marke/farben/farben.css) */
         :root {
-            --doebeling-portwein: #78022d;
-            --doebeling-tinte: #22262b;
-            --doebeling-papier: #ffffff;
-            --doebeling-nacht: #0e1114;
-            --doebeling-hellgrau: #e7e7e8;
-            --grund: var(--doebeling-papier);
-            --schrift: var(--doebeling-tinte);
+            --port-wine: #78022d;
+            --ink: #22262b;
+            --paper: #ffffff;
+            --night: #0e1114;
+            --light-grey: #e7e7e8;
+            --background: var(--paper);
+            --text: var(--ink);
         }
         @media (prefers-color-scheme: dark) {
             :root {
-                --grund: var(--doebeling-nacht);
-                --schrift: var(--doebeling-papier);
+                --background: var(--night);
+                --text: var(--paper);
             }
         }
         * { box-sizing: border-box; }
@@ -45,8 +45,8 @@
             align-items: center;
             min-height: 100%;
             padding: 3rem 1.5rem 1.5rem;
-            background: var(--grund);
-            color: var(--schrift);
+            background: var(--background);
+            color: var(--text);
             font-family: Biome, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
             font-weight: 300;
             text-align: center;
@@ -54,33 +54,43 @@
         main {
             flex: 1;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+        /* One column as wide as the logo; divider and button start on the
+           wordmark's left edge (28.62 % of the logo width in D15-quer) */
+        .brand {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
             gap: 3rem;
+            width: min(600px, calc(100vw - 6rem));
+            --wordmark-left: 28.62%;
         }
-        /* Trenner: Linie in Hellgrau, außerhalb der Schutzzone des Logos */
-        .trenner {
-            width: 8rem;
-            height: 1px;
-            margin: 0;
-            border: 0;
-            background: var(--doebeling-hellgrau);
-        }
-        .logo { display: block; line-height: 0; }
-        .logo img { max-width: 100%; height: auto; }
-        /* Mindestgrößen und Schutzzone (0,339 × Kachelseite) nach CD-Handbuch */
-        .logo img { width: min(600px, calc(100vw - 6rem)); }
         @media (max-width: 640px) {
-            .logo img { width: min(316px, calc(100vw - 5rem)); }
+            /* stacked logo: the wordmark starts on the logo's left edge */
+            .brand { width: min(316px, calc(100vw - 5rem)); --wordmark-left: 0%; }
         }
+        /* Divider: light grey line across the wordmark's width, outside the logo's clear space */
+        .divider {
+            width: calc(100% - var(--wordmark-left));
+            height: 1px;
+            margin: 0 0 0 var(--wordmark-left);
+            border: 0;
+            background: var(--light-grey);
+        }
+        .logo { display: block; width: 100%; line-height: 0; }
+        .logo img { max-width: 100%; height: auto; }
+        /* Logo width follows the minimum sizes and the clear space (0.339 × tile side) of the CD manual */
+        .logo img { width: 100%; }
         .cta {
             display: inline-block;
+            margin-left: var(--wordmark-left);
             padding: 0.9rem 2rem;
-            /* Kachelform: Ecken oben links und unten rechts gerundet */
+            /* Tile shape: top-left and bottom-right corners rounded */
             border-radius: 0.9rem 0 0.9rem 0;
-            background: var(--doebeling-portwein);
-            color: var(--doebeling-papier);
+            background: var(--port-wine);
+            color: var(--paper);
             font-size: 1.1rem;
             font-weight: 400;
             text-decoration: none;
@@ -88,7 +98,7 @@
         }
         .cta:hover, .cta:focus-visible { opacity: 0.85; }
         footer { margin-top: 3rem; font-size: 0.85rem; opacity: 0.6; }
-        footer a { color: var(--schrift); text-decoration: none; }
+        footer a { color: var(--text); text-decoration: none; }
         footer a:hover, footer a:focus-visible { text-decoration: underline; }
         footer span { margin: 0 0.6em; }
     </style>
@@ -96,20 +106,22 @@
 <body>
 
 <main>
+<div class="brand">
 
 <a class="logo" href="https://www.Doebeling.de" title="DÖBELING Projektbüro">
     <picture>
-        <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/D15-steh-dunkel-ohne-grund.svg">
-        <source media="(max-width: 640px)" srcset="assets/D15-steh-hell.svg">
-        <source media="(prefers-color-scheme: dark)" srcset="assets/D15-quer-dunkel-ohne-grund.svg">
-        <img src="assets/D15-quer-hell.svg" width="600" height="128" alt="DÖBELING Projektbüro">
+        <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/logo-stacked-dark.svg">
+        <source media="(max-width: 640px)" srcset="assets/logo-stacked-light.svg">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+        <img src="assets/logo-light.svg" width="600" height="128" alt="DÖBELING Projektbüro">
     </picture>
 </a>
 
-<hr class="trenner">
+<hr class="divider">
 
 <a class="cta" href="https://github.com/DOEBELING">Show Projects on GitHub</a>
 
+</div>
 </main>
 
 <footer>
