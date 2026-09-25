@@ -23,7 +23,7 @@ Planning a new web project, or need help with an existing one? Please get in tou
 ### [Andreas Döbeling](https://github.com/ADoebeling)
 
 <img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;[@ADoebeling](https://github.com/ADoebeling)<br>
-<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;+49 172 109 1601<br>
+<img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;<a href="tel:+491721091601">+49 172 109 1601</a><br>
 <img src="https://raw.githubusercontent.com/DOEBELING/.github/main/assets/kachel-portwein.svg" width="11" alt="">&nbsp;&nbsp;[Projektbuero@Doebeling.de](mailto:Projektbuero@Doebeling.de?subject=%5Bgithub.com%2FDOEBELING%5D%20Project%20enquiry)
 
-<sub>© 2009–2026 DÖBELING Projektbüro · <a href="https://www.Doebeling.de">www.Doebeling.de</a> · <a href="https://legal.doebeling.de/impressum/">Imprint</a></sub>
+<sub>© 2009–2026 <a href="https://www.Doebeling.de">DÖBELING Projektbüro</a> · <a href="https://legal.doebeling.de/impressum/">Imprint</a></sub>
