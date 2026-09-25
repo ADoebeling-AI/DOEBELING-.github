@@ -37,7 +37,7 @@ Planning a new web project, or need help with an existing one? Please get in tou
 <p>
   <a href="https://github.com/ADoebeling"><img src="https://avatars.githubusercontent.com/u/10674780?v=4&s=200" width="96" height="96" align="left" alt="Andreas Döbeling"></a>
   <b>Andreas Döbeling</b> (<a href="https://github.com/ADoebeling">@ADoebeling</a>)<br>
-  Founder and project manager<br>
+  <i>Founder and project manager</i><br>
   Mobile: <a href="https://a.doebeling.dev/ADoebeling/call/">+49 172 109 1601</a><br>
   E-mail: <a href="mailto:A@Doebeling.de">A@Doebeling.de</a>
   <br clear="left">
