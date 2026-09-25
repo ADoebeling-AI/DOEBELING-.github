@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Call DÖBELING Projektbüro</title>
+    <meta name="theme-color" content="#78022D">
+
+    <link rel="icon" href="../assets/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+
+    <style>
+        /* Brand colours from the corporate design manual, same as the landing page */
+        :root {
+            --port-wine: #78022d;
+            --ink: #22262b;
+            --paper: #ffffff;
+            --night: #0e1114;
+            --background: var(--paper);
+            --text: var(--ink);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: var(--night);
+                --text: var(--paper);
+            }
+        }
+        * { box-sizing: border-box; }
+        html, body { height: 100%; margin: 0; }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100%;
+            padding: 1.5rem 1rem;
+            background: var(--background);
+            color: var(--text);
+            font-family: Biome, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            font-weight: 300;
+            text-align: center;
+        }
+        main { width: 100%; max-width: 420px; }
+        .logo { display: block; margin-bottom: 2.5rem; line-height: 0; }
+        .logo img { width: 100%; max-width: 360px; height: auto; }
+        p { margin: 0 0 1.5rem; opacity: 0.7; }
+        .call {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.9rem 2rem;
+            /* Tile shape: top-left and bottom-right corners rounded */
+            border-radius: 0.9rem 0 0.9rem 0;
+            background: var(--port-wine);
+            color: var(--paper);
+            font-size: 1.25rem;
+            font-weight: 400;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        .call:hover, .call:focus-visible { opacity: 0.85; }
+        .call svg { width: 22px; height: 22px; fill: currentColor; }
+        .back { display: inline-block; margin-top: 2rem; color: var(--text); font-size: 0.85rem; opacity: 0.6; }
+    </style>
+</head>
+<body>
+
+<main>
+    <a class="logo" href="https://www.Doebeling.de" title="DÖBELING Projektbüro">
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="../assets/logo-dark.svg">
+            <img src="../assets/logo-light.svg" width="360" height="77" alt="DÖBELING Projektbüro">
+        </picture>
+    </a>
+    <p>Calling DÖBELING Projektbüro …</p>
+    <a class="call" href="tel:+4991338309884">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+        +49 9133 8309884
+    </a>
+    <br>
+    <a class="back" href="https://github.com/DOEBELING">← back to GitHub</a>
+</main>
+
+<script>
+    window.location.href = "tel:+4991338309884";
+</script>
+
+</body>
+</html>
